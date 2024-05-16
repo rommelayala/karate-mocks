@@ -92,7 +92,7 @@ Feature: sample karate test script
     * print "El response es ->", response
     * print "El numero de elementos del response es ->", karate.sizeOf(response)
     #And match karate.sizeOf(response) == 1 
-    And match response.email == 'lolo-modificado@lolo.com'
+    And match response.email == 'lolo-modificado-karate@lolo.com'
     And match response.phone == '777-777-777'
 
     Scenario: Patch name of the customer with id = 1
